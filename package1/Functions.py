@@ -24,22 +24,25 @@
 # num=int(input("Enter Factorial:\n"))
 # fact(num)
 
-def fact(ind):
-    num=ind
-    result=num
-    while num > 1:
-        result=result * (num - 1)
-        num = num - 1
-    print(f"\n{ind}! is",result)
+# def fact(ind):
+#     num=ind
+#     result=num
+#     while num > 1:
+#         result=result * (num - 1)
+#         num = num - 1
+#     print(f"\n{ind}! is",result)
 
-fact(5)
+# fact(5)
 
-def sumfact(x):
-    term=x
-    result=x
-    while x>0:
-        result= result + (x-1)
-        x = x - 1
-    print(f'Sum of integers from 0 to {term} is {result}')
+# def sumfact(x):
+#     term=x
+#     result=x
+#     while x>0:
+#         result= result + (x-1)
+#         x = x - 1
+#     print(f'Sum of integers from 0 to {term} is {result}')
 
-sumfact(100)
+# sumfact(100)
+
+print(len(rf"123\\"))
+#  + len("\\\\////"))
